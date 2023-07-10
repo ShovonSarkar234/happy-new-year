@@ -110,3 +110,26 @@ body {
     font-size: 14px;
 }
 /* my-plan-ara end */
+
+/* watch-area start */
+.watch-area {
+    width: 800px;
+    margin: auto;
+    background-image:  linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url("..//images/watch.png");
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+}
+
+.watch {
+    height: 30vh;
+}
+
+.btn {
+    margin-top: 15px;
+    background-color: aliceblue;
+    color: #F15B22;
+}
+/* watch-area end */

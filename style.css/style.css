@@ -120,7 +120,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 .watch {
@@ -133,3 +133,61 @@ body {
     color: #F15B22;
 }
 /* watch-area end */
+
+/* contact-area start */
+.contact {
+    display: flex;
+    background-color: #000;
+    height: 60vh;
+    padding: 40px;
+    align-items: center;
+    gap: 400px;
+}
+
+.contact h4,h5,p,small {
+    color: white;
+}
+
+.contact h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+small {
+    line-height: 50px;
+}
+
+.icon i {
+    color: blue;
+    background-color: aliceblue;
+    padding: 6px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.icon i:last-child {
+    color: red;
+}
+
+.icon i:first-child {
+    margin: 0;
+}
+.contact-right h5{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.contact-right button {
+    border-radius: 6px;
+}
+/* contact-area end */
